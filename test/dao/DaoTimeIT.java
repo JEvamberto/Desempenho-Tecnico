@@ -13,6 +13,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
+
 
 /**
  *
@@ -46,72 +48,64 @@ public class DaoTimeIT {
     public void testInserir() {
         System.out.println("inserir");
         Time time = new Time() ;
-        time.setNome("Evamberto");
+        time.setNome("EvambertoLima");
         DaoTime instance = new DaoTime();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.inserir(time);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
      * Test of excluir method, of class DaoTime.
      */
+    
+    @Ignore
     @Test
     public void testExcluir() {
         System.out.println("excluir");
         Time time = new Time() ;
         time.setId(3);
         DaoTime instance = new DaoTime();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.excluir(time);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
      * Test of atualizar method, of class DaoTime.
      */
+    @Ignore
     @Test
     public void testAtualizar() {
         System.out.println("atualizar");
-        Object object = null;
+        Time time = new Time();
+        time.setId(4);
+        time.setNome("Palmeiras");
         DaoTime instance = new DaoTime();
-        boolean expResult = false;
-        boolean result = instance.atualizar(object);
+        boolean expResult = true;
+        boolean result = instance.atualizar(time);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     
     }
 
     /**
      * Test of buscar method, of class DaoTime.
      */
+    @Ignore
     @Test
     public void testBuscar() {
         System.out.println("buscar");
         DaoTime instance = new DaoTime();
         List expResult = null;
         List result = instance.buscar();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertNotEquals(expResult, result);
+       
+      
     }
 
-    /**
-     * Test of nomeTime method, of class DaoTime.
-     */
-    @Test
-    public void testNomeTime() {
-        System.out.println("nomeTime");
-        DaoTime instance = new DaoTime();
-        List expResult = null;
-        List result = instance.nomeTime();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
 }
