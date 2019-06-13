@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="2" failures="3" hostname="archlinux" name="dao.DaoTimeIT" skipped="0" tests="5" time="1.978" timestamp="2019-06-12T19:08:08">
+<testsuite errors="0" failures="0" hostname="archlinux" name="dao.DaoTimeIT" skipped="3" tests="4" time="2.911" timestamp="2019-06-13T02:35:06">
   <properties>
     <property name="netbeans.autoupdate.country" value="BR" />
-    <property name="javac.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
+    <property name="javac.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="javac.includes" value="dao/DaoTimeIT.java" />
     <property name="ant.core.lib" value="/home/jose/netbeans-8.2/extide/ant/lib/ant.jar" />
+    <property name="file.reference.itextpdf-5.5.10.jar-1" value="/home/jose/Downloads/itextpdf-5.5.10.jar" />
     <property name="javadoc.windowtitle" value="" />
-    <property name="user.dir" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)" />
+    <property name="user.dir" value="/home/jose/Desktop/Desempenho-Tecnico" />
     <property name="java.vm.version" value="25.111-b14" />
     <property name="libs.MySQLDriver.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar" />
     <property name="libs.eclipselinkmodelgen.src" value="" />
@@ -40,7 +41,7 @@
     <property name="user.name" value="jose" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dao.DaoTimeIT skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/test/results/TEST-dao.DaoTimeIT.xml crashfile=/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/junitvmwatcher2946085818356929319.properties propsfile=/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/junit7687784273592262698.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dao.DaoTimeIT skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/jose/Desktop/Desempenho-Tecnico/build/test/results/TEST-dao.DaoTimeIT.xml crashfile=/home/jose/Desktop/Desempenho-Tecnico/build/junitvmwatcher9169533790500161256.properties propsfile=/home/jose/Desktop/Desempenho-Tecnico/build/junit1419376883038624678.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -54,7 +55,7 @@
     <property name="addExports:java.desktop/sun.awt" value="ALL-UNNAMED" />
     <property name="ant.file.type.DesempenhoTecnicoDeUmAtleta(Oficial)-impl" value="file" />
     <property name="javadoc.encoding" value="UTF-8" />
-    <property name="javac.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar" />
+    <property name="javac.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar" />
     <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
     <property name="libs.spring-framework400.classpath" value="/home/jose/netbeans-8.2/ide/modules/org-apache-commons-logging.jar:/home/jose/netbeans-8.2/java/modules/ext/cglib-2.2.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-aop-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-aspects-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-beans-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-build-src-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-context-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-context-support-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-core-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-expression-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-framework-bom-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-instrument-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-instrument-tomcat-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-jdbc-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-jms-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-messaging-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-orm-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-oxm-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-test-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-tx-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-web-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-webmvc-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-webmvc-portlet-4.0.1.RELEASE.jar:/home/jose/netbeans-8.2/java/modules/ext/spring-4/spring-websocket-4.0.1.RELEASE.jar" />
     <property name="debug-transport" value="dt_socket" />
@@ -68,7 +69,7 @@
     <property name="libs.hibernate4-support.src" value="" />
     <property name="libs.groovy-all.maven-pom" value="" />
     <property name="netbeans.productversion" value="NetBeans IDE 8.2 (Build 201609300101)" />
-    <property name="ant.file.DesempenhoTecnicoDeUmAtleta(Oficial)" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build.xml" />
+    <property name="ant.file.DesempenhoTecnicoDeUmAtleta(Oficial)" value="/home/jose/Desktop/Desempenho-Tecnico/build.xml" />
     <property name="libs.jaxws21.src" value="" />
     <property name="do.archive" value="true" />
     <property name="netbeans.autoupdate.language" value="pt" />
@@ -78,10 +79,10 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/null2139097812" />
+    <property name="javac.includesfile.binary" value="/home/jose/Desktop/Desempenho-Tecnico/null207343134" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
-    <property name="javac.test.processorpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
+    <property name="javac.test.processorpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
@@ -89,7 +90,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="/home/jose/netbeans-8.2/ide/docs/jaxb-api-doc.zip" />
-    <property name="javac.includes.binary" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/test/classes/dao/DaoTimeIT.class" />
+    <property name="javac.includes.binary" value="/home/jose/Desktop/Desempenho-Tecnico/build/test/classes/dao/DaoTimeIT.class" />
     <property name="ant.home" value="/home/jose/netbeans-8.2/extide/ant" />
     <property name="libs.junit_4.src" value="/home/jose/netbeans-8.2/platform/docs/junit-4.12-sources.jar" />
     <property name="libs.testng.classpath" value="/home/jose/netbeans-8.2/platform/modules/ext/testng-6.8.1-dist.jar" />
@@ -101,7 +102,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)" />
+    <property name="basedir" value="/home/jose/Desktop/Desempenho-Tecnico" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="path.separator" value=":" />
@@ -117,7 +118,7 @@
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="manifest.available" value="true" />
     <property name="libs.spring-framework300.maven-pom" value="" />
-    <property name="run.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="run.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
     <property name="ant.project.invoked-targets" value="test-single" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="/home/jose/netbeans-8.2/platform/docs/swing-layout-1.0.4-doc.zip" />
@@ -138,14 +139,14 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="libs.JWSAntTasks.classpath" value="/home/jose/netbeans-8.2/java/ant/extra/org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="libs.spring-framework300.src" value="" />
-    <property name="empty.dir" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/empty" />
+    <property name="empty.dir" value="/home/jose/Desktop/Desempenho-Tecnico/build/empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
     <property name="javadoc.preview" value="true" />
     <property name="libs.jpa20-persistence.javadoc" value="/home/jose/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="java.home" value="/home/jose/jdk1.8.0_111/jre" />
-    <property name="debug.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="debug.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="ant.project.default-target" value="default" />
     <property name="annotation.processing.run.all.processors" value="true" />
@@ -154,7 +155,7 @@
     <property name="libs.hibernate4-persistence.javadoc" value="/home/jose/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="http.nonProxyHosts" value="localhost|127.0.0.1|archlinux" />
     <property name="libs.junit_4.javadoc" value="/home/jose/netbeans-8.2/platform/docs/junit-4.12-javadoc.jar" />
-    <property name="run.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:build/classes" />
+    <property name="run.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes" />
     <property name="jna.boot.library.name" value="jnidispatch-422" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="libs.jpa2-persistence.maven-pom" value="" />
@@ -165,11 +166,11 @@
     <property name="javac.deprecation" value="false" />
     <property name="javadoc.use" value="true" />
     <property name="sun.java2d.noddraw" value="true" />
-    <property name="javac.processorpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar" />
+    <property name="javac.processorpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build.xml" />
-    <property name="ant.file.DesempenhoTecnicoDeUmAtleta(Oficial)-impl" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/nbproject/build-impl.xml" />
+    <property name="ant.file" value="/home/jose/Desktop/Desempenho-Tecnico/build.xml" />
+    <property name="ant.file.DesempenhoTecnicoDeUmAtleta(Oficial)-impl" value="/home/jose/Desktop/Desempenho-Tecnico/nbproject/build-impl.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="/home/jose/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.beans-binding.src" value="" />
@@ -188,7 +189,7 @@
     <property name="sun.boot.library.path" value="/home/jose/jdk1.8.0_111/jre/lib/amd64" />
     <property name="have.sources" value="true" />
     <property name="libs.hamcrest.javadoc" value="" />
-    <property name="debug.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:build/classes" />
+    <property name="debug.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:../../../Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes" />
     <property name="javac.external.vm" value="true" />
     <property name="javadoc.private" value="false" />
     <property name="test.src.dir" value="test" />
@@ -231,7 +232,7 @@
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
-    <property name="work.dir" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)" />
+    <property name="work.dir" value="/home/jose/Desktop/Desempenho-Tecnico" />
     <property name="libs.jaxb.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/jaxb/jaxb-impl.jar:/home/jose/netbeans-8.2/ide/modules/ext/jaxb/jaxb-xjc.jar:/home/jose/netbeans-8.2/ide/modules/ext/jaxb/jaxb1-impl.jar:/home/jose/netbeans-8.2/ide/modules/ext/jaxb/activation.jar:/home/jose/netbeans-8.2/ide/modules/ext/jaxb/api/jaxb-api.jar:/home/jose/netbeans-8.2/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
@@ -247,7 +248,7 @@
     <property name="addExports:java.management/sun.management" value="ALL-UNNAMED" />
     <property name="sun.boot.class.path" value="/home/jose/jdk1.8.0_111/jre/lib/resources.jar:/home/jose/jdk1.8.0_111/jre/lib/rt.jar:/home/jose/jdk1.8.0_111/jre/lib/sunrsasign.jar:/home/jose/jdk1.8.0_111/jre/lib/jsse.jar:/home/jose/jdk1.8.0_111/jre/lib/jce.jar:/home/jose/jdk1.8.0_111/jre/lib/charsets.jar:/home/jose/jdk1.8.0_111/jre/lib/jfr.jar:/home/jose/jdk1.8.0_111/jre/classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/built-jar.properties" />
+    <property name="built-jar.properties" value="/home/jose/Desktop/Desempenho-Tecnico/build/built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="annotation.processing.enabled" value="true" />
@@ -279,7 +280,7 @@
     <property name="libs.absolutelayout.classpath" value="/home/jose/netbeans-8.2/java/modules/ext/AbsoluteLayout.jar" />
     <property name="excludes" value="" />
     <property name="libs.jpa2-persistence.javadoc" value="/home/jose/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
-    <property name="java.class.path" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/jose/NetBeansProjects/ProjetoPDS34/DesempenhoTecnicoDeUmAtleta(Oficial)/build/test/classes:/home/jose/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/home/jose/netbeans-8.2/extide/ant/lib/ant.jar:/home/jose/netbeans-8.2/extide/ant/lib/ant-junit.jar:/home/jose/netbeans-8.2/extide/ant/lib/ant-junit4.jar" />
+    <property name="java.class.path" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:/home/jose/Desktop/Desempenho-Tecnico/build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/jose/Desktop/Desempenho-Tecnico/build/test/classes:/home/jose/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/home/jose/netbeans-8.2/extide/ant/lib/ant.jar:/home/jose/netbeans-8.2/extide/ant/lib/ant-junit.jar:/home/jose/netbeans-8.2/extide/ant/lib/ant-junit4.jar" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="addExports:java.desktop/java.awt.peer" value="ALL-UNNAMED" />
     <property name="addExports:java.desktop/com.sun.beans.editors" value="ALL-UNNAMED" />
@@ -320,38 +321,17 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="dao.DaoTimeIT" name="testExcluir" time="0.836">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at dao.DaoTime.excluir(DaoTime.java:68)
-	at dao.DaoTimeIT.testExcluir(DaoTimeIT.java:67)
-</error>
+  <testcase classname="dao.DaoTimeIT" name="testExcluir" time="0.0">
+    <skipped />
   </testcase>
-  <testcase classname="dao.DaoTimeIT" name="testAtualizar" time="0.114">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at dao.DaoTime.atualizar(DaoTime.java:90)
-	at dao.DaoTimeIT.testAtualizar(DaoTimeIT.java:82)
-</error>
+  <testcase classname="dao.DaoTimeIT" name="testAtualizar" time="0.0">
+    <skipped />
   </testcase>
-  <testcase classname="dao.DaoTimeIT" name="testBuscar" time="0.096">
-    <failure message="expected:&lt;null&gt; but was:&lt;[Corinthians]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;null&gt; but was:&lt;[Corinthians]&gt;
-	at dao.DaoTimeIT.testBuscar(DaoTimeIT.java:97)
-</failure>
+  <testcase classname="dao.DaoTimeIT" name="testBuscar" time="0.0">
+    <skipped />
   </testcase>
-  <testcase classname="dao.DaoTimeIT" name="testInserir" time="0.359">
-    <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;false&gt; but was:&lt;true&gt;
-	at dao.DaoTimeIT.testInserir(DaoTimeIT.java:53)
-</failure>
-  </testcase>
-  <testcase classname="dao.DaoTimeIT" name="testNomeTime" time="0.12">
-    <failure message="expected:&lt;null&gt; but was:&lt;[Corinthians, Evamberto]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;null&gt; but was:&lt;[Corinthians, Evamberto]&gt;
-	at dao.DaoTimeIT.testNomeTime(DaoTimeIT.java:111)
-</failure>
-  </testcase>
-  <system-out><![CDATA[excluir
-atualizar
-buscar
-inserir
-nomeTime
+  <testcase classname="dao.DaoTimeIT" name="testInserir" time="2.287" />
+  <system-out><![CDATA[inserir
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
