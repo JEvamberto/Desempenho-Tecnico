@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="archlinux" name="dao.DaoTimeIT" skipped="0" tests="4" time="1.4" timestamp="2019-06-18T01:08:29">
+<testsuite errors="0" failures="0" hostname="archlinux" name="dao.DaoJogadorIT" skipped="0" tests="4" time="5.253" timestamp="2019-06-18T01:02:26">
   <properties>
     <property name="netbeans.autoupdate.country" value="BR" />
     <property name="javac.test.classpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
-    <property name="javac.includes" value="dao/DaoTimeIT.java" />
+    <property name="javac.includes" value="dao/DaoJogadorIT.java" />
     <property name="ant.core.lib" value="/home/jose/netbeans-8.2/extide/ant/lib/ant.jar" />
     <property name="file.reference.itextpdf-5.5.10.jar-1" value="/home/jose/Downloads/itextpdf-5.5.10.jar" />
     <property name="javadoc.windowtitle" value="" />
@@ -29,7 +29,7 @@
     <property name="libs.hamcrest.classpath" value="/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Linux" />
-    <property name="test.class" value="dao.DaoTimeIT" />
+    <property name="test.class" value="dao.DaoJogadorIT" />
     <property name="libs.beans-binding.classpath" value="/home/jose/netbeans-8.2/java/modules/ext/beansbinding-1.2.1.jar" />
     <property name="ap.proc.none.internal" value="" />
     <property name="libs.JWSAntTasks.maven-pom" value="" />
@@ -41,7 +41,7 @@
     <property name="user.name" value="jose" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dao.DaoTimeIT skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/jose/Desktop/Desempenho-Tecnico/build/test/results/TEST-dao.DaoTimeIT.xml crashfile=/home/jose/Desktop/Desempenho-Tecnico/build/junitvmwatcher6109435654340486833.properties propsfile=/home/jose/Desktop/Desempenho-Tecnico/build/junit261234884803722652.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dao.DaoJogadorIT skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/jose/Desktop/Desempenho-Tecnico/build/test/results/TEST-dao.DaoJogadorIT.xml crashfile=/home/jose/Desktop/Desempenho-Tecnico/build/junitvmwatcher5038279166555207167.properties propsfile=/home/jose/Desktop/Desempenho-Tecnico/build/junit3836835257712051907.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -62,7 +62,7 @@
     <property name="netbeans.home" value="/home/jose/netbeans-8.2/platform" />
     <property name="build.compiler.emacs" value="true" />
     <property name="java.endorsed.dirs" value="/home/jose/jdk1.8.0_111/jre/lib/endorsed" />
-    <property name="test.includes" value="dao/DaoTimeIT.java" />
+    <property name="test.includes" value="dao/DaoJogadorIT.java" />
     <property name="netbeans.dynamic.classpath" value="/home/jose/netbeans-8.2/platform/core/asm-all-5.0.1.jar:/home/jose/netbeans-8.2/platform/core/org-netbeans-libs-asm.jar:/home/jose/netbeans-8.2/platform/core/org-openide-filesystems.jar:/home/jose/netbeans-8.2/platform/core/core-base.jar:/home/jose/netbeans-8.2/platform/core/core.jar:/home/jose/netbeans-8.2/platform/core/org-openide-filesystems-compat8.jar:/home/jose/netbeans-8.2/platform/core/locale/core-base_ru.jar:/home/jose/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ru.jar:/home/jose/netbeans-8.2/platform/core/locale/core-base_pt_BR.jar:/home/jose/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ja.jar:/home/jose/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/home/jose/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/home/jose/netbeans-8.2/platform/core/locale/core_zh_CN.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_pt_BR.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_zh_CN.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems_zh_CN.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems_ja.jar:/home/jose/netbeans-8.2/platform/core/locale/core-base_zh_CN.jar:/home/jose/netbeans-8.2/platform/core/locale/core-base_ja.jar:/home/jose/netbeans-8.2/platform/core/locale/core_ja.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ru.jar:/home/jose/netbeans-8.2/platform/core/locale/core_pt_BR.jar:/home/jose/netbeans-8.2/platform/core/locale/core_ru.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems_ru.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems_pt_BR.jar:/home/jose/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ja.jar:/home/jose/netbeans-8.2/nb/core/org-netbeans-upgrader.jar:/home/jose/netbeans-8.2/nb/core/locale/core_nb_zh_CN.jar:/home/jose/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ja.jar:/home/jose/netbeans-8.2/nb/core/locale/core_nb_pt_BR.jar:/home/jose/netbeans-8.2/nb/core/locale/core_nb_ja.jar:/home/jose/netbeans-8.2/nb/core/locale/core_nb.jar:/home/jose/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/home/jose/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/home/jose/netbeans-8.2/nb/core/locale/core_nb_ru.jar:/home/jose/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ru.jar" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="libs.hibernate4-support.src" value="" />
@@ -77,7 +77,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/jose/Desktop/Desempenho-Tecnico/null1960024723" />
+    <property name="javac.includesfile.binary" value="/home/jose/Desktop/Desempenho-Tecnico/null472691098" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="/home/jose/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:/home/jose/Downloads/itextpdf-5.5.10.jar:build/classes:/home/jose/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/home/jose/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
@@ -89,7 +89,7 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="/home/jose/netbeans-8.2/ide/docs/jaxb-api-doc.zip" />
     <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
-    <property name="javac.includes.binary" value="/home/jose/Desktop/Desempenho-Tecnico/build/test/classes/dao/DaoTimeIT.class" />
+    <property name="javac.includes.binary" value="/home/jose/Desktop/Desempenho-Tecnico/build/test/classes/dao/DaoJogadorIT.class" />
     <property name="ant.home" value="/home/jose/netbeans-8.2/extide/ant" />
     <property name="libs.junit_4.src" value="/home/jose/netbeans-8.2/platform/docs/junit-4.12-sources.jar" />
     <property name="libs.testng.classpath" value="/home/jose/netbeans-8.2/platform/modules/ext/testng-6.8.1-dist.jar" />
@@ -318,14 +318,14 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="dao.DaoTimeIT" name="testExcluir" time="0.806" />
-  <testcase classname="dao.DaoTimeIT" name="testAtualizar" time="0.145" />
-  <testcase classname="dao.DaoTimeIT" name="testBuscar" time="0.094" />
-  <testcase classname="dao.DaoTimeIT" name="testInserir" time="0.206" />
-  <system-out><![CDATA[excluir-Time
-atualizar-Time
-buscar-Time
-inserir-Time
+  <testcase classname="dao.DaoJogadorIT" name="testExcluir" time="2.256" />
+  <testcase classname="dao.DaoJogadorIT" name="testAtualizar" time="0.296" />
+  <testcase classname="dao.DaoJogadorIT" name="testBuscar" time="1.095" />
+  <testcase classname="dao.DaoJogadorIT" name="testInserir" time="0.602" />
+  <system-out><![CDATA[excluir-jogador
+atualizar-Jogador
+buscar
+inserir-Jogador
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

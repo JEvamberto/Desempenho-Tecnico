@@ -44,9 +44,10 @@ public class DaoTimeIT {
     /**
      * Test of inserir method, of class DaoTime.
      */
+    
     @Test
     public void testInserir() {
-        System.out.println("inserir");
+        System.out.println("inserir-Time");
         Time time = new Time() ;
         time.setNome("EvambertoLima");
         DaoTime instance = new DaoTime();
@@ -61,27 +62,17 @@ public class DaoTimeIT {
      * Test of excluir method, of class DaoTime.
      */
     
-    @Ignore
-    @Test
-    public void testExcluir() {
-        System.out.println("excluir");
-        Time time = new Time() ;
-        time.setId(3);
-        DaoTime instance = new DaoTime();
-        boolean expResult = true;
-        boolean result = instance.excluir(time);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-       
-    }
+    
+    
 
     /**
      * Test of atualizar method, of class DaoTime.
      */
-    @Ignore
+ 
     @Test
+ 
     public void testAtualizar() {
-        System.out.println("atualizar");
+        System.out.println("atualizar-Time");
         Time time = new Time();
         time.setId(4);
         time.setNome("Palmeiras");
@@ -92,14 +83,28 @@ public class DaoTimeIT {
         // TODO review the generated test code and remove the default call to fail.
      
     }
+    
+    @Test
+    
+    public void testExcluir() {
+        System.out.println("excluir-Time");
+        Time time = new Time() ;
+        time.setId(4);
+        DaoTime instance = new DaoTime();
+        boolean expResult = true;
+        boolean result = instance.excluir(time);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+       
+    }
 
     /**
      * Test of buscar method, of class DaoTime.
      */
-    @Ignore
+   
     @Test
     public void testBuscar() {
-        System.out.println("buscar");
+        System.out.println("buscar-Time");
         DaoTime instance = new DaoTime();
         List expResult = null;
         List result = instance.buscar();

@@ -7,6 +7,7 @@ package dao;
 
 import java.util.List;
 import model.Desempenho;
+import model.Jogador;
 import model.Partida;
 import model.Time;
 import org.junit.After;
@@ -46,122 +47,92 @@ public class DaoDesempenhoIT {
      */
     @Test
     public void testInserir() {
-        System.out.println("inserir");
+        System.out.println("inserir-Desempenho");
         Desempenho de= new Desempenho();
+        de.setAssistencia(12);
+        de.setDesarme(13);
+        de.setDominioCerto(20);
+        de.setDominioErrado(20);
+        de.setDrible(23);
+        de.setFinalizacoesGols(12);
+        de.setGol(12);
+        de.setPassesCertos(13);
+        de.setPassesErrados(10);
+        Partida partida = new Partida();
+        partida.setId(1);
+        Jogador jogador = new Jogador();
+        jogador.setId(1);
+        de.setJogador(jogador);
+        de.setPartida(partida);
+       
         
         DaoDesempenho instance = new DaoDesempenho();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.inserir(de);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+ 
     }
+        /**
+     * Test of atualizar method, of class DaoDesempenho.
+     */
+    @Test
+    public void testAtualizar() {
+        
+        System.out.println("atualizar-Desempenho");
+              Desempenho de= new Desempenho();
+        de.setAssistencia(12);
+        de.setDesarme(13);
+        de.setDominioCerto(40);
+        de.setDominioErrado(30);
+        de.setDrible(34);
+        de.setFinalizacoesGols(52);
+        de.setGol(121);
+        de.setPassesCertos(13);
+        de.setPassesErrados(105);
+        Partida partida = new Partida();
+        partida.setId(1);
+        Jogador jogador = new Jogador();
+        jogador.setId(11);
+        de.setJogador(jogador);
+        de.setPartida(partida);
+       
+      
+        DaoDesempenho instance = new DaoDesempenho();
+        boolean expResult = true;
+        boolean result = instance.atualizar(de);
+        assertEquals(expResult, result);
+ 
+    }
+
 
     /**
      * Test of excluir method, of class DaoDesempenho.
      */
     @Test
     public void testExcluir() {
-        System.out.println("excluir");
-        Object object = null;
+        System.out.println("excluir-Desempenho");
+        Desempenho desempenho= new Desempenho();
+        desempenho.setId(11);
         DaoDesempenho instance = new DaoDesempenho();
-        boolean expResult = false;
-        boolean result = instance.excluir(object);
+        boolean expResult = true;
+        boolean result = instance.excluir(desempenho);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+   
     }
 
-    /**
-     * Test of atualizar method, of class DaoDesempenho.
-     */
-    @Test
-    public void testAtualizar() {
-        System.out.println("atualizar");
-        Object object = null;
-        DaoDesempenho instance = new DaoDesempenho();
-        boolean expResult = false;
-        boolean result = instance.atualizar(object);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
 
     /**
      * Test of buscar method, of class DaoDesempenho.
      */
     @Test
     public void testBuscar() {
-        System.out.println("buscar");
+        System.out.println("buscar-Desempenho");
         DaoDesempenho instance = new DaoDesempenho();
         List expResult = null;
         List result = instance.buscar();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertNotEquals(expResult, result);
+     
     }
 
-    /**
-     * Test of relatorioPasse method, of class DaoDesempenho.
-     */
-    @Test
-    public void testRelatorioPasse() {
-        System.out.println("relatorioPasse");
-        Time time = null;
-        Partida partida1 = null;
-        DaoDesempenho instance = new DaoDesempenho();
-        List expResult = null;
-        List result = instance.relatorioPasse(time, partida1);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of relatorioDominio method, of class DaoDesempenho.
-     */
-    @Test
-    public void testRelatorioDominio() {
-        System.out.println("relatorioDominio");
-        Time time = null;
-        Partida partida1 = null;
-        DaoDesempenho instance = new DaoDesempenho();
-        List expResult = null;
-        List result = instance.relatorioDominio(time, partida1);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of relatorioFinalizacao method, of class DaoDesempenho.
-     */
-    @Test
-    public void testRelatorioFinalizacao() {
-        System.out.println("relatorioFinalizacao");
-        Time time = null;
-        Partida partida1 = null;
-        DaoDesempenho instance = new DaoDesempenho();
-        List expResult = null;
-        List result = instance.relatorioFinalizacao(time, partida1);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of buscarDesempenhoPartida method, of class DaoDesempenho.
-     */
-    @Test
-    public void testBuscarDesempenhoPartida() {
-        System.out.println("buscarDesempenhoPartida");
-        Partida partida1 = null;
-        DaoDesempenho instance = new DaoDesempenho();
-        List expResult = null;
-        List result = instance.buscarDesempenhoPartida(partida1);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
+  
 }
